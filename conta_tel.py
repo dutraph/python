@@ -1,3 +1,5 @@
+# Primeiro programa basico em python
+
 minutos = int(input("Minutos utilizados: "))
 if minutos < 200:
     preco = 0.20
