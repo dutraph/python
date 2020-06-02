@@ -1,0 +1,5 @@
+print('Calculo preço carro alugado!')
+km = float(input('KM percorridos: '))
+tmp = int(input('Quantos dias: '))
+tot = ((tmp * 60) + (km * 0.15))
+print(f'O total a pagar pelo aluguél é: R${tot:.2f}')

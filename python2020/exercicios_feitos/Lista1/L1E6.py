@@ -1,0 +1,5 @@
+print('Calculo de tempo sobre distancia e velocidade media!')
+d = float(input('Entre a distancia a ser percorrida em Km: '))
+vm = float(input('Qual sua velocidade media em Km/s: '))
+t = (d / vm)
+print(f'O tempo levado para chegar ao destino é: {t:.2f} horas')
