@@ -1,16 +1,13 @@
-# Primeiro programa basico em python
-
-minutos = int(input("Minutos utilizados: "))
+minutos = int(input('Entre os minutos usados durante o mes: '))
 if minutos < 200:
-    preco = 0.20
-    print ('Tarifa %.2f' %preco)
-elif minutos <= 400:
-    preco = 0.18
-    print ('Tarifa %.2f' %preco)
+    print('Tarifa normal de R$ 0,20/min', end='\n\n')
+    print(f'Seu gasto esse mes foi de R$ {(minutos * 0.20):.2f}')
+elif minutos >= 200 and minutos < 400:
+    print('Tarifa promocional de R$ 0,18/min', end='\n\n')
+    print(f'Seu gasto esse mes for de R$ {(minutos * 0.18):.2f}')
 elif minutos < 800:
-    preco = 0.15
-    print ('Tarifa %.2f' %preco)
+    print('Tarifa super promocional de R$ 0,15/min', end='\n\n')
+    print(f'Seu gasto esse mes foi de R$ {(minutos * 0.15):.2f}')
 else:
-    preco = 0.08
-    print ('Tarifca promocional aplicada')
-print ("Conta telefonica: R$ %.2f" % (minutos * preco))
+    print('Tarifa ultra promocional de R$ 0,08/min', end='\n\n')
+    print(f'Seu gasto esse mes foi de R$ {(minutos * 0.08):.2f}')
