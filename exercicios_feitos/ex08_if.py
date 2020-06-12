@@ -1,3 +1,5 @@
+from os impor 
+
 a,b,c = input('Entre o preco dos tres produtos para comparar separados por /: ').split('/')
 print(f'{a}')
 
