@@ -6,5 +6,5 @@ while True:
         break
     else:
         n = n + 1
-    soma = soma + x
+    soma += soma
 print(f'Media : {soma / n:.1f}')
