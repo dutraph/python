@@ -58,3 +58,6 @@ docs/_build/
 target/
 
 .vscode
+
+# Apple Files
+.DS_Store
